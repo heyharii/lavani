@@ -6,7 +6,7 @@ export default function Form() {
   const [input, setInput] = useState();
   const [success, setSuccess] = useState(false);
   return (
-    <div>
+    <div className="w-full">
       {success ? 
       <>
          <p className="text-white text-[20px] leading-[24px] font-normal mt-32 font-inter">
@@ -22,10 +22,12 @@ export default function Form() {
         :
         <>
         <p className="text-white text-[20px] leading-[24px] font-normal mt-32 font-inter">
-          Be the first to know by subscribing to our newsletter <br /> Sign up
-          now and never miss out
+          Be the first to know by subscribing to our newsletter
         </p>
-            
+        <p className="text-white text-[20px] leading-[24px] font-normal font-inter mt-2">
+        Sign up now and never miss out
+        </p>
+ 
         <div className="flex gap-6 justify-start items-center mt-8">
           <input
             type="text"

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="mx-auto flex h-screen max-w-screen-xl bg-black">
+    <div className="mx-auto flex h-screen max-w-screen-xl bg-black overflow-hidden">
       <div className="w-full max-w-[600px] h-full relative hidden md:block">
         <div className="absolute z-10 left-[60px] top-[60px] flex items-end justify-center bg-gradient-to-t from-black via-black h-auto w-auto">
           <a
@@ -34,7 +34,7 @@ export default function Home() {
           quality={100}
         />
       </div>
-      <div className="max-w-[550px] mx-auto grow flex flex-col h-full justify-center items-start p-10 xl:p-0">
+      <div className="w-full max-w-[550px] md:max-w-[550px] mx-auto grow flex flex-col h-full justify-center items-start p-10 xl:p-0">
         <div className="md:hidden mb-12 flex items-end justify-center bg-gradient-to-t from-black via-black h-auto w-auto">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-0 lg:pointer-events-auto"
