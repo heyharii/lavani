@@ -9,7 +9,7 @@ export default function Form() {
     <div className="w-full">
       {success ? 
       <>
-         <p className="text-white text-[20px] leading-[24px] font-normal mt-32 font-inter">
+         <p className="text-white text-[20px] leading-[24px] font-normal mt-8 md:mt-32 font-inter">
            Thank you for subscribed to our newsletter!
          </p>
          <p className="text-white text-[20px] leading-[24px] font-normal mt-2 font-inter">
@@ -21,7 +21,7 @@ export default function Form() {
         </>
         :
         <>
-        <p className="text-white text-[20px] leading-[24px] font-normal mt-32 font-inter">
+        <p className="text-white text-[20px] leading-[24px] font-normal mt-8 md:mt-32 font-inter">
           Be the first to know by subscribing to our newsletter
         </p>
         <p className="text-white text-[20px] leading-[24px] font-normal font-inter mt-2">
