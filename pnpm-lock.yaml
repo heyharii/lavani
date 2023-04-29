@@ -21,10 +21,10 @@ dependencies:
   autoprefixer: 10.4.14_postcss@8.4.23
   eslint: 8.39.0
   eslint-config-next: 13.3.1_iacogk7kkaymxepzhgcbytyi7q
-  next: 13.3.1_biqbaboplfbrettd7655fr4n2y
+  next: 13.3.1_adhyfk3twpw3iful6hptxzga4i
   postcss: 8.4.23
-  react: 18.2.0
-  react-dom: 18.2.0_react@18.2.0
+  react: link:@vercel/analytics/react
+  react-dom: 18.2.0_wppbcgor73lndwjpd4un56vkwq
   tailwindcss: 3.3.2
   typescript: 5.0.4
 
@@ -1736,7 +1736,7 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: false
 
-  /next/13.3.1_biqbaboplfbrettd7655fr4n2y:
+  /next/13.3.1_adhyfk3twpw3iful6hptxzga4i:
     resolution: {integrity: sha512-eByWRxPzKHs2oQz1yE41LX35umhz86ZSZ+mYyXBqn2IBi2hyUqxBA88avywdr4uyH+hCJczegGsDGWbzQA5Rqw==}
     engines: {node: '>=14.18.0'}
     hasBin: true
@@ -1762,9 +1762,9 @@ packages:
       busboy: 1.6.0
       caniuse-lite: 1.0.30001481
       postcss: 8.4.14
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      styled-jsx: 5.1.1_react@18.2.0
+      react: link:@vercel/analytics/react
+      react-dom: 18.2.0_wppbcgor73lndwjpd4un56vkwq
+      styled-jsx: 5.1.1_wppbcgor73lndwjpd4un56vkwq
     optionalDependencies:
       '@next/swc-darwin-arm64': 13.3.1
       '@next/swc-darwin-x64': 13.3.1
@@ -2057,25 +2057,18 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: false
 
-  /react-dom/18.2.0_react@18.2.0:
+  /react-dom/18.2.0_wppbcgor73lndwjpd4un56vkwq:
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
       react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
+      react: link:@vercel/analytics/react
       scheduler: 0.23.0
     dev: false
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-    dev: false
-
-  /react/18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
-    engines: {node: '>=0.10.0'}
-    dependencies:
-      loose-envify: 1.4.0
     dev: false
 
   /read-cache/1.0.0:
@@ -2274,7 +2267,7 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /styled-jsx/5.1.1_react@18.2.0:
+  /styled-jsx/5.1.1_wppbcgor73lndwjpd4un56vkwq:
     resolution: {integrity: sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -2288,7 +2281,7 @@ packages:
         optional: true
     dependencies:
       client-only: 0.0.1
-      react: 18.2.0
+      react: link:@vercel/analytics/react
     dev: false
 
   /sucrase/3.32.0:
