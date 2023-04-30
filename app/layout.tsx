@@ -1,5 +1,6 @@
 import { siteConfig } from '@/config/site'
 import { Analytics } from './analytics'
+import { Toaster } from "@/components/ui/toaster"
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -56,6 +57,7 @@ export default function RootLayout({
       <body className={inter.className + "font-sans antialiased"}>
         {children}
         <Analytics />
+        <Toaster />
       </body>
     </html>
   )
