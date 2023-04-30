@@ -1,4 +1,3 @@
-import { getServerSession } from "next-auth/next"
 import * as z from "zod"
 import { db } from "@/lib/db"
 
