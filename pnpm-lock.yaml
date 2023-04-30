@@ -9,6 +9,7 @@ specifiers:
   '@vercel/analytics': ^1.0.0
   autoprefixer: 10.4.14
   class-variance-authority: ^0.6.0
+  clsx: ^1.2.1
   eslint: 8.39.0
   eslint-config-next: 13.3.1
   lucide-react: ^0.188.0
@@ -31,6 +32,7 @@ dependencies:
   '@vercel/analytics': 1.0.0_react@18.2.0
   autoprefixer: 10.4.14_postcss@8.4.23
   class-variance-authority: 0.6.0_typescript@5.0.4
+  clsx: 1.2.1
   eslint: 8.39.0
   eslint-config-next: 13.3.1_iacogk7kkaymxepzhgcbytyi7q
   lucide-react: 0.188.0_react@18.2.0
